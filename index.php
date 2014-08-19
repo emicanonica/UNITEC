@@ -36,19 +36,26 @@ function resaltaOpcN($num)
 		<title>Unitec</title>
 	</head>
 <body>
-<div class="header">
-		<a href="#login">Iniciar Sesión</a>
-</div>
+	<div class="conteiner-fluid">
+	<div class="row">
+		<div class="header">
+				<a href="#login">Iniciar Sesión</a>
+		</div>
+
+  <div class="col-xs-6 col-md-4">
 <?php
 	include_once("./seccs/menu.php");
 ?>
-
+  </div>
 <main>
+<div class="col-xs-12 col-md-8">
 	<?php
 		include_once("./seccs/sobre_unitec.php");
 		include_once("./seccs/organigrama.php");
 		include_once("./seccs/calendario.php");
 	?>
+	</div>
 </main>
+	</div>
+	</div>
 </html>
-
